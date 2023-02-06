@@ -4,6 +4,8 @@ out/
 !**/src/test/**/out/
 
 target
+.idea
+SachlavSelenimDecember2022.iml
 
 ### Eclipse ###
 .apt_generated
