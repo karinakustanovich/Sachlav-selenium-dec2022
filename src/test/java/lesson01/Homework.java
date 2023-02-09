@@ -11,6 +11,8 @@ public class Homework {
 
         WebDriver driver = new ChromeDriver();
 
+        driver.manage().window().maximize();
+
         driver.get("https://amazon.com");
 
         System.out.println("driver.getCurrentUrl() = " + driver.getCurrentUrl());
